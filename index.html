@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garaga Dharma Raju - CS Portfolio</title>
+    <!-- Link to CSS file - THIS IS THE IMPORTANT PART -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">GDR</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="greeting">👋 Hello, I'm</span>
+                    <h1 class="glitch-text">Dharma Raju Garaga</h1>
+                    <h3>Computer Science Student <span class="highlight">GITAM University</span></h3>
+                    <p class="hero-description">Building scalable backend systems with Java & Spring Boot. Passionate about DSA, Machine Learning, and creating efficient solutions.</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+			    <span class="stat-number">8.7</span>
+                            <span class="stat-label">CGPA</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">APIs</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Contact</a>
+                        <a href="https://github.com/Dharma2408" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://linkedin.com/in/dharma-raju-garaga-2a8141293" target="_blank" class="btn btn-secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+    <div class="profile-circle">
+        <div class="profile-inner">
+            <img src="Dharma.jpeg" alt="Dharma Raju Garaga" class="profile-img">
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-main">Computer Science undergraduate with a strong foundation in backend development and a passion for building efficient, scalable applications.</p>
+                    <p>Currently pursuing my Bachelors in Computer Science (AIML) at GITAM University with an 8.7 CGPA. I specialize in Java development and have hands-on experience with Spring Boot, MySQL, and RESTful APIs.</p>
+                    <div class="quick-info">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>B.Tech CS (AIML) - 2027</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-code"></i>
+                            <span>500+ DSA Problems</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>3 Major Projects</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>4+ Certifications</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <i class="fas fa-brain"></i>
+                                <h3>Problem Solver</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Strong DSA skills in Java, passionate about optimizing algorithms and solving complex problems efficiently.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <i class="fas fa-server"></i>
+                                <h3>Backend Focus</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Experienced in building RESTful APIs with Spring Boot, ensuring thread-safety and scalability.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+				<div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Technologies & Frameworks</h3>
+                    <div class="skill-grid">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Unix/Linux</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">DSA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <!-- Cricket Score Predictor -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Cricket Score Predictor</h3>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" class="live-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Flask</span>
+                        <span>Pandas</span>
+                    </div>
+                    <p class="project-description">
+                        Built a machine learning model to predict cricket match scores using historical data. Processed and cleaned datasets to improve prediction accuracy. Integrated into a Flask web app with interactive user interface.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-chart-line"></i>
+                            <span>85% Accuracy</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-database"></i>
+                            <span>10k+ Records</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Automated Parking System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Automated Parking System</h3>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" class="live-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span>Java</span>
+                        <span>Multithreading</span>
+                        <span>OOP</span>
+                        <span>Data Structures</span>
+                    </div>
+                    <p class="project-description">
+                        Developed a multithreaded system to manage simultaneous access to shared parking resources. Implemented thread-safe spot allocation to prevent race conditions. Applied OOP principles for scalable system design.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>Concurrent Access</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Thread-Safe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-Commerce API Suite -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>E-Commerce API Suite</h3>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>MySQL</span>
+                        <span>REST</span>
+                    </div>
+                    <p class="project-description">
+                        Developed 5+ production-ready RESTful APIs for user authentication and order processing during internship at CodeBeat. Managed feature branches with Git and ensured high-quality, maintainable code.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-plug"></i>
+                            <span>5+ APIs</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Production Ready</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">May 2024 - July 2024</div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer Intern</h3>
+                        <h4>CodeBeat · Visakhapatnam, AP</h4>
+                        <ul>
+                            <li>Developed and deployed 5+ production-ready RESTful APIs for critical business modules including user authentication and order processing using Java and Spring Boot</li>
+                            <li>Built responsive front-end components using HTML, CSS, and JavaScript to create a seamless user interface</li>
+                            <li>Actively participated in the software development lifecycle by managing feature branches with Git and ensuring high-quality, maintainable code</li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Recognitions</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Google Gen AI Study Jam</h3>
+                    <p>Google-sponsored initiative focused on generative AI and large language models (LLMs)</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Cisco Networking Basics</h3>
+                    <p>Foundational networking course from Cisco Networking Academy</p>
+                </div>
+
+                <div class="cert-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Deloitte Tech Simulation</h3>
+                    <p>Virtual job simulation demonstrating application of technical concepts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:garagadharma24@gmail.com">garagadharma24@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+919121182164">+91 9121182164</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Visakhapatnam, AP</p>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <h3>Connect with me</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/Dharma2408" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/dharma-raju-garaga-2a8141293" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Garaga Dharma Raju. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
